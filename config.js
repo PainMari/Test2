@@ -1,3 +1,5 @@
 function test() {
-  return test();
+  if (true) {
+    return test();
+  }
 }
